@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegistrationSuite">
+  <test name="newUserTest">
+  </test> <!-- newUserTest -->
+  
+  <listeners>
+<listener class-name="com.vsysq.listeners.TestNGEmailableReport2" />
+<listener class-name="com.vsysq.listeners.TestListener" />
+</listeners>
+
+</suite> <!-- RegistrationSuite -->
+
+
